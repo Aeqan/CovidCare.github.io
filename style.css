@@ -1,0 +1,891 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+/* header */
+.top {
+    width: 100%;
+    height: 25px;
+    background: #FFC107;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Contact {
+    display: flex;
+    width: 30vw;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#SocialIcons {
+    display: flex;
+    width: 30vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 18px;
+    margin-right: 20px;
+}
+
+.LandlineNumber {
+    font-size: 18px;
+}
+
+/* Navbar */
+#navbar {
+    display: flex;
+    align-items: center;
+    height: 87px;
+}
+
+#NavList {
+    width: 60vw;
+    justify-content: left;
+}
+
+.NavItems {
+    list-style: none;
+    margin-right: 3.5rem;
+    color: #272D4E
+}
+
+.NavItems a {
+    text-decoration: none;
+    color: #272D4E;
+}
+
+#DoctorsNames {
+    border: none;
+    background-color: transparent;
+}
+
+.branding {
+    margin-left: 20px;
+    width: 17vw;
+    text-align: center;
+    font-size: 25px;
+    line-height: 52.5px;
+}
+
+.Btn-outline {
+    border: 1px solid #482369;
+    background-color: white;
+    color: #482369;
+    padding: 6px;
+    border-radius: 3px;
+    line-height: 20.7px;
+    cursor: pointer;
+    font-weight: 700;
+    margin: 0 5px;
+}
+
+.Btn {
+    border: 1px solid #482369;
+    background-color: #482369;
+    color: white;
+    padding: 6px;
+    border-radius: 3px;
+    line-height: 20.7px;
+    cursor: pointer;
+    font-weight: 500;
+    margin: 0 5px;
+}
+#Hamburger{
+    display: none;
+    border:2px solid #482369 ;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 8px;
+    height: 35px;
+    cursor: pointer;
+    margin: 0 1rem;
+}
+.H-Line{
+    width: 20px;
+    margin: 3px;
+    height: 3px;
+    background-color: #482369;
+}
+
+/* Section including search bar */
+
+#MainImage {
+    width: 100%;
+    height: 560.83px;
+    background-color: #482369;
+}
+
+#Main {
+    margin: auto;
+    width: 80vw;
+    display: flex;
+}
+
+#DoctorImage {
+    margin-top: 5rem;
+
+}
+
+#SearchDoctor {
+    width: 60vw;
+    margin-top: 8.5rem;
+}
+
+#SearchDoctor h1 {
+    font-size: 44px;
+    line-height: 52px;
+}
+
+#SearchDoctor p {
+    Font-weight: 350;
+    font-size: 28px;
+    Line-height: 35px;
+    color: white;
+    margin: 1rem 0;
+    word-spacing: 1px;
+}
+
+#SearchContainer {
+    width: 42vw;
+    background-color: white;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+#SearchDr{
+    border: none;
+    height:100%;
+    width: 100%;
+    padding: 1.3rem;
+}
+#SearchBranches {
+    width: 55%;
+    display: flex;
+    align-items: center;
+}
+
+#SearchBranches img {
+    margin: 0px 10px;
+}
+
+#SearchBranches span {
+    margin: 0px 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #515151;
+}
+
+.SearchBtn {
+    width: 121.89px;
+    height: 59.2px;
+    background-color: #FFC107;
+    color: #302229;
+    font-weight: 500;
+    font-size: 20px;
+    border: none;
+    border-radius: 0px 6px 6px 0px;
+}
+
+.VerticalLine {
+    height: 59.2px;
+    width: 0.2px;
+    background-color: grey;
+}
+
+#SearchCity {
+    display: flex;
+    width: 30%;
+    align-items: center;
+}
+
+#SearchCity img {
+    margin: 0 1rem;
+}
+
+#SearchCity span {
+    margin: 0 0.5rem;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #515151;
+}
+
+#SelectCity {
+    border: none;
+    margin-left: 4rem;
+    padding-top: 2px;
+}
+
+/* for yellow box under the purple main box */
+
+#NumericData {
+    margin: auto;
+    position: relative;
+    top: -60px;
+    width: 75vw;
+    height: 115px;
+    background: #FFC107;
+    box-shadow: 1px 1px 25px 4px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+}
+
+.figures {
+    width: 25%;
+    flex-direction: column;
+}
+
+.Number {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.text {
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 6px;
+}
+
+/* Speciality Box Styling */
+#HeadingText {
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+}
+
+#HeadingText h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 70px
+}
+
+#HeadingText div {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+#Speciality {
+    height: 90vh;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+}
+
+#S-Container {
+    width: 80%;
+    /* height: 50%; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.S-Image {
+    width: 7vw;
+    height: 7vw;
+    background-color: #4D4D4D;
+    border-radius: 500px;
+}
+.S-Image img{
+    width: 4.5vw;
+}
+.Big-Icon img{
+    width:4rem ;
+}
+.Large-Icon img{
+    width:3rem ;
+}
+
+#SpecialistIcons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.S-Icon {
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 3rem;
+
+}
+
+.S-Icon span {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    margin: 1rem;
+}
+
+#SpecialityBtn {
+    background-color: #FFC107;
+    width: 271.9px;
+    height: 46px;
+    border-radius: 4px;
+    border: none;
+    margin: 2rem 0;
+    cursor: pointer;
+}
+
+#SpecialityBtn span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #262626;
+    margin: 0 2rem;
+}
+
+#V-Line {
+    height: 46px;
+    border-left: 0.1px solid #302229;
+}
+
+#Select-Specialities {
+    rotate: 270deg;
+    background: none;
+    border: none;
+    margin: 0 0.5rem;
+}
+
+/* <!-- Book Appointment and online consulting box */
+#Book-Appointment {
+    background-color: white;
+}
+
+#Appointment {
+    height: 850px;
+    background-color: #FFFF;
+}
+
+.Appointment-Container {
+    display: flex;
+    width: 60%;
+    align-items: center;
+    margin-left: 13rem;
+    position: relative;
+    top: -70px;
+}
+
+.Appointment-text {
+    margin: 1.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Appointment-text h1 {
+    margin: 0.5rem;
+}
+
+.Appointment-text div {
+    margin: 0 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.Btn-Appointment {
+    width: 217.35px;
+    height: 54.34px;
+    background: #482369;
+    border-radius: 4px;
+    margin: 2.5rem 15px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+#Doc-Consulting {
+    flex-direction: row-reverse;
+    position: relative;
+    left: 18rem;
+    top: -16rem;
+}
+
+.Btn-Consulting {
+    background-color: #FFC107;
+    color: #262626;
+    border: none;
+    font-weight: 600;
+}
+
+#Dc-Text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* Corona Virus Information Container*/
+.Info-Container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Covid-Info {
+    height: 777.19px;
+    background: #E5E5E5;
+}
+
+.Covid-h {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.I-T-H1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.P-Text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    margin: 1rem 0;
+}
+
+.bullet {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    margin: 2rem 0;
+}
+
+.bullet span {
+    margin: 0 1.5rem;
+}
+
+/* Booking Appointment */
+#Book-Appointment {
+    height: 777.19px;
+}
+
+.Appointment-Bullet {
+    flex-direction: column;
+}
+
+#Book-Appointment-Container {
+    width: 80%;
+}
+
+#Book-Appointment-Container h1 {
+    text-align: center;
+}
+
+#Booking-img {
+    width: 633.37px;
+    height: 526.51px;
+}
+
+#S-text {
+    margin-left:5rem;
+}
+
+#Appoint-Question {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 70px;
+}
+
+#Appoint-Steps {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.Btn-Search {
+    margin: 1rem 0;
+
+}
+
+/* More On Covid Care */
+#Bar {
+    color: white;
+    height: 153.57px;
+    background: #482369;
+}
+
+#text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.Items {
+    flex-direction: column;
+    margin: 0 4rem;
+}
+
+.Items a {
+    color: white;
+}
+
+#Boxes {
+    margin-left: 18rem;
+
+}
+
+#Ellipse-S {
+    position: relative;
+    bottom: -60px;
+}
+
+#Ellipse {
+    position: relative;
+    top: -20px;
+}
+
+#ME-text {
+    margin-top: 9px;
+}
+
+/* Join As a Doctor */
+
+#JoinAsDr {
+    height: 570px;
+    background: #E5E5E5;
+}
+
+.ma-1 {
+    margin: 0.5rem 0;
+}
+
+#PhonesImage {
+    position: relative;
+    bottom: -8.4rem;
+}
+
+/* Reviews */
+#Reviews {
+    height: 700px;
+    background-color: #FFFF;
+    flex-direction: column;
+}
+
+#ReviewsContainer {
+    flex-direction: column;
+}
+
+.Review-H {
+    margin: 4rem;
+    padding-top: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+}
+
+.CustomerName {
+    color: #FFFF;
+}
+
+.comma {
+    margin: 2rem;
+}
+
+.DummyText {
+    margin: -10px 2rem;
+    height: 150px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.card {
+    Width: 25vw;
+    Height: 49vh;
+    border: 1px solid #C4C4C4;
+}
+
+.Cards {
+    margin: auto;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+#Right-Arrow {
+    position: relative;
+    left: 110px;
+    bottom: 15px;
+}
+
+#Left-Arrow {
+    position: relative;
+    rotate: 180deg;
+    right: 110px;
+    bottom: 15px;
+}
+
+.CustomerInfo {
+
+    margin-top: 5.35rem;
+    width: 25vw;
+    background: #482369;
+}
+
+#CustomerInfo {
+    position: relative;
+    top: -32px;
+    flex-direction: column;
+}
+
+/* Our Partners */
+#Partners {
+    background-color: #E5E5E5;
+    height: 35svh;
+}
+
+#Partners-H {
+    text-align: center;
+    margin: 5rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+}
+
+#Logo-Images {
+    justify-content: space-around;
+}
+
+/* Find Different Specialiists in Different Cities */
+#F-Specialists {
+    background-color: #FFFFFF;
+    height: 65vh;
+}
+
+#F-Specialists-Heading {
+    padding: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 70px;
+    text-align: center;
+}
+
+#F-Speciallists-Container {
+    margin: 0 auto;
+    width: 85%;
+    justify-content: space-between;
+}
+
+.CityName {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.List li {
+    list-style: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    color: #000000;
+    margin: 0 2px;
+}
+
+/* Ending Box */
+#Ending-Box {
+    height: 60vh;
+    background-color: #222222;
+}
+
+#EndingBox-Container {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+
+.F-Box {
+    display: flex;
+}
+
+.F-Box h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 52px;
+    color: #FFFFFF;
+}
+
+.F-Box img {
+    border-radius: 0px;
+    margin: 0 1.5rem;
+}
+
+#ShieldImage {
+    height: 41.48px;
+    width: 33.94px;
+}
+
+#CreditCardImage {
+    Width: 41.9px;
+    Height: 31.43px;
+}
+
+#HeadPhonesImage {
+    Width: 41px;
+    Height: 41px;
+}
+
+#LockedImage {
+    Width: 41px;
+    Height: 41px;
+}
+
+#Features {
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+#H-Line {
+    border: 1px solid #FFFFFF;
+    width: 101%;
+    margin: 1rem 0;
+}
+
+.C-Boxes {
+    width: 185px;
+    margin: 1rem;
+}
+
+.C-Heading {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 52px;
+
+}
+
+.Box-1{
+    width: 21%;
+    margin-right: 8rem;
+}
+#Characteristics {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#C-SocialIcons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    width: 80%;
+}
+
+#C-DummyText {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 1rem 0;
+}
+
+.MajorHeading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.DownloadBtn{
+    cursor: pointer;
+}
+
+.C-List li {
+    list-style: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.Covid-h{
+    margin-top: 10px;
+}
+.Download{
+    margin-top: 1rem;
+    font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 52px;
+color: #FFFFFF;
+}
+
+#footer{
+height: 51.39px;
+background: #363636;
+color: #FFFFFF;
+}
+
+.C-Care{
+    margin: 0 5px;
+}
+.Year{
+    font-size: 14px;
+}
+.T-C{
+    text-decoration: underline;
+    margin: 0 5px;
+}   
+/* Utility Classes */
+.Center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Yellow {
+    color: #FFC107;
+}
+
+.Black {
+    color: #000000;
+}

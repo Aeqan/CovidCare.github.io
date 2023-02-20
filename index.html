@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID CARE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="MediaQueries.Css">
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <div id="Contact">
+                <span class="icon"> <img src="Icons/HeaderIcons/phone-solid.svg" alt=""></span>
+                <span class="LandlineNumber">123456789 </span>
+            </div>
+            <div id="SocialIcons">
+                <span class="icon"> <img src="Icons/HeaderIcons/twitter.svg" alt=""></span>
+                <span class="icon"><img src="Icons/HeaderIcons/facebook.svg" alt=""> </span>
+                <span class="icon"><img src="Icons/HeaderIcons/wifi-solid.svg" alt=""> </span>
+                <span class="icon"> <img src="Icons/HeaderIcons/square-instagram.svg" alt=""></span>
+            </div>
+        </div>
+
+        <nav id="navbar">
+            <div class="branding"> <span class="Yellow">COVID</span><span class="Black">CARE</span> </div>
+            <ul id="NavList" class="Center">
+                <li class="NavItems"> <a href=""> Doctors <select id="DoctorsNames">
+                            <option></option>
+                        </select></a> </li>
+                <li class="NavItems"> <a href="">Hospitals </a> </li>
+                <li class="NavItems"> <a href=""> Labs & Diagnostics</a></li>
+                <li class="NavItems"> <a href=""> Order Medicines </a> </li>
+                <li class="NavItems"> <a href="">Blog </a> </li>
+            </ul>
+            <div class="buttons Center">
+                <button class="Btn-outline">Order Medicines</button>
+                <button class="Btn">Login/Register</button>
+                <div id="Hamburger" class="Center ">
+                    <div class="H-Line"></div>
+                    <div class="H-Line"></div>
+                    <div class="H-Line"></div>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <section id="MainImage">
+        <div id="Main">
+            <div id="SearchDoctor">
+                <h1 class="Yellow"> Looking for a Doctor?</h1>
+                <p>Covid Care is the largest online platfom for covid patient <br> to consult with doctors,order
+                    medicines and tests.</p>
+                <div id="SearchContainer">
+                    <div id="SearchBranches" class="Center">
+                        <img src="Icons/Icons/Search.png"> <input type="search"
+                            placeholder="Search for doctors, hospitals, specialties and labs" id="SearchDr"></input>
+                    </div>
+                    <div class="VerticalLine"></div>
+                    <div id="SearchCity">
+                        <img src="Icons/Icons/Location.png" alt="">
+                        <span>Karachi</span>
+                        <select name="Select" id="SelectCity"></select>
+                    </div>
+                    <button class="SearchBtn">Search</button>
+                </div>
+            </div>
+            <div id="DoctorImage"> <img src="Icons/MedicalIcons/Frame.png"></div>
+        </div>
+    </section>
+    <Div id="NumericData">
+        <div class="figures Center">
+            <div class="Number">1,00,000+</div>
+            <div class="text">Doctors</div>
+        </div>
+        <div class="figures Center">
+            <div class="Number">1000+</div>
+            <div class="text">Specialists</div>
+        </div>
+        <div class="figures Center">
+            <div class="Number">2000+</div>
+            <div class="text">Patients Served</div>
+        </div>
+        <div class="figures Center">
+            <div class="Number">70,000+</div>
+            <div class="text">Patients Reviews</div>
+        </div>
+    </Div>
+
+    <!-- Speciality Box Starts Here -->
+    <div id="Speciality">
+        <div id="S-Container">
+            <div id="HeadingText" class="Center">
+                <h1>FIND DOCTOR BY SPECIALTY</h1>
+                <div>100+ Specialist Available</div>
+            </div>
+            <div id="SpecialistIcons" class="Center">
+                <div class="S-Icon Center">
+                    <div class="S-Image Center">
+                        <img src="Icons/MedicalIcons/Covid.png">
+                    </div>
+                    <span>Covid 19</span>
+                </div>
+                <div class="S-Icon Center">
+                    <div class="S-Image Center">
+                        <img src="Icons/MedicalIcons/Gynecologist.png">
+                    </div>
+                    <span>Gynecologist</span>
+                </div>
+                <div class="S-Icon Center">
+                    <div class="S-Image Center">
+                        <img src="Icons/MedicalIcons/Skin Specialisr.png">
+                    </div>
+                    <span>Skin Specialist</span>
+                </div>
+                <div class="S-Icon Center">
+                    <div class="S-Image Center">
+                        <img src="Icons/MedicalIcons/Chlid Specialist.png">
+                    </div>
+                    <span>Chlid Specialist</span>
+                </div>
+                <div class="S-Icon Center">
+                    <div class="S-Image Center">
+                        <img src="Icons/MedicalIcons/Dentist.png">
+                    </div>
+                    <span>Dentist</span>
+                </div>
+
+                <div class="S-Icon Center">
+                    <div class="S-Image Center Big-Icon">
+                        <img src="Icons/MedicalIcons/Orthopedic Surgeon.png">
+                    </div>
+                    <span>Orthopedic Surgeon</span>
+                </div>
+                <div class="S-Icon Center Big-Icon">
+                    <div class="S-Image Center">
+                        <img src="Icons/MedicalIcons/ENT Specialist.png">
+                    </div>
+                    <span>ENT Specialist</span>
+                </div>
+                <div class="S-Icon Center Large-Icon">
+                    <div class="S-Image Center">
+                        <img src="Icons/MedicalIcons/Diabetes Specialist.png">
+                    </div>
+                    <span>Diabetes Specialist</span>
+                </div>
+                <div class="S-Icon Center">
+                    <div class="S-Image Center">
+                        <img src="Icons/MedicalIcons/Eye Specialist.png">
+                    </div>
+                    <span>Eye Specialist</span>
+                </div>
+            </div>
+            <a href="#"></a><button id="SpecialityBtn" class="Center">
+                <span>View All Specialties </span>
+                <div id="V-Line"></div>
+                <select name="Select-Specialities" id="Select-Specialities"></select>
+            </button></a>
+        </div>
+    </div>
+
+    <!-- Book Appointment and online consulting box -->
+
+    <div id="Appointment">
+        <div id="Doc-Appointment" class="Appointment-Container">
+            <div class="Doc-Image">
+                <img src="Icons/MedicalIcons/ConsultantDoctor.png">
+            </div>
+            <div class="Appointment-text">
+                <h1>Covid Care</h1>
+                <div> Video Consultations with Top Specialists</div>
+                <button class="Btn Btn-Appointment">
+                    Book Appointment
+                </button>
+            </div>
+        </div>
+        <div id="Doc-Consulting" class="Appointment-Container">
+            <div class="Doc-Image">
+                <img src="Icons/MedicalIcons/OnlineConsultancy.png">
+            </div>
+            <div class="Appointment-text M-Top">
+                <h1>Doctor Online <span id="online-dot"> <img src="Icons/MedicalIcons/Online-Dot.png"></span></h1>
+                <div id="Dc-Text"> Instant Video Consultation with Top Doctors of <br>
+                    Covid 19</div>
+                <button class="Btn Btn-Appointment Btn-Consulting">
+                    Start Consulting
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Corona Virus Information Container -->
+
+    <div id="Covid-Info" class="Center">
+        <div class="Info-Container CInfo">
+            <div class="Info-Text">
+                <h1 class="Yellow Covid-h">Covid-19</h1>
+                <h1 class="I-T-H1">Corona Virus Information</h1>
+                <p class="P-Text">Watch 5 minute of informative video of expert doctors and you will get <br>
+                    to know the following: </p>
+                <div class="bullet"> <img src="Icons/MedicalIcons/Checkbox.png"> <span> What are the syptoms of
+                        covid-19?</span></div>
+                <div class="bullet"> <img src="Icons/MedicalIcons/Checkbox.png"> <span> What is the treatment?</span>
+                </div>
+                <div class="bullet"> <img src="Icons/MedicalIcons/Checkbox.png"> <span> Individual medication and side
+                        effects.</span></div>
+                <div class="bullet"> <img src="Icons/MedicalIcons/Checkbox.png"> <span> Information about tests (when
+                        are they needed and how often).</span></div>
+            </div>
+            <div id="Video">
+                <img src="Icons/MedicalIcons/Video.png"></img>
+            </div>
+        </div>
+    </div>
+
+    <!-- Booking Appointment -->
+    <div id="Book-Appointment" class="Center">
+        <div id="Book-Appointment-Container">
+            <h1 id="Appoint-Question">HOW TO BOOK AN APPOINTMENT?</h1>
+            <h1 id="Appoint-Steps">3 Easy Steps</h1>
+            <div id="SearchDr" class="Center">
+                <img src="Icons/MedicalIcons/Mobile Search.png" id="Booking-img">
+                <div id="S-text">
+                    <div class=" bullet">
+                        <img src="Icons/MedicalIcons/Search.png"> <span>Search for doctors by speciality, hospital,
+                            service or disease </span>
+                    </div>
+                    <div class="bullet"><img src="Icons/MedicalIcons/Check.png"> <span>Select doctor by experience, fee
+                            and rating</span>
+                    </div>
+                    <div class="bullet"><img src="Icons/MedicalIcons/Calendar.png"> <span>Book a confirmed appoinment
+                            within seconds </span>
+                    </div>
+                    <button class="Btn Btn-Appointment Btn-Consulting Btn-Search">
+                        Search Doctor
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- More on Covid Care -->
+    <div id="Bar" class="Center">
+        <div id="Boxes" class="Center">
+            <div id="text">More on Covide Care:</div>
+            <div class="Items Center"> <img src="Icons/MedicalIcons/Flask.png"> <span> <a href="#">Lab Tests</a>
+                </span></div>
+            <div class="Items Center"> <img src="Icons/MedicalIcons/healthicons_medicines.png"> <span> <a
+                        href="#">Order Medicines</a> </span></div>
+            <div class="Items Center"> <img src="Icons/MedicalIcons/medical-stethoscope-variant 1.png"> <span
+                    id="ME-text"> <a href="#">Medical Equipments</a> </span></div>
+            <img src="Icons/MedicalIcons/Ellipse 38.png" id="Ellipse">
+            <img src="Icons/MedicalIcons/Ellipse 37.png" id="Ellipse-S">
+        </div>
+    </div>
+
+    <!-- Join as a doctor -->
+    <div id="JoinAsDr" class="Center">
+        <div class="Info-Container JoinDrContainer">
+            <div class="Info-Text JoinDrInfo">
+                <h1 class="Yellow Covid-h ma-1">Join as a Doctor</h1>
+                <h1 class="I-T-H1 ">ARE YOU A DOCTOR?</h1>
+                <p class="P-Text">Join covid care to serve patients </p>
+                <div class="bullet"> <img src="Icons/MedicalIcons/Checkbox.png"> <span>Get the appointments through
+                        online bookings</span></div>
+                <div class="bullet"> <img src="Icons/MedicalIcons/Checkbox.png"> <span> Create and view patient records
+                        from anywhere</span>
+                </div>
+                <div class="bullet"> <img src="Icons/MedicalIcons/Checkbox.png"> <span> Manage your schedule
+                        efficiently</span></div>
+                <button class="Btn Btn-Appointment Btn-Consulting Btn-Search">
+                    Join Now
+                </button>
+            </div>
+            <div class="Phone">
+                <img src="Icons/MedicalIcons/phones 1.png" id="PhonesImage"></img>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Reviews -->
+    <div id="Reviews">
+        <div id="ReviewsContainer">
+            <div>
+                <h1 class="Review-H">WHAT USERS SAY ABOUT US?</h1>
+            </div>
+            <div class="Cards" class="Center">
+                <div class="Center" id="Right-Arrow"><img src="Icons/MedicalIcons/Arrow.png">
+                </div>
+                <div class="card First-Card">
+                    <div class="comma"><img src="Icons/MedicalIcons/“.png" alt=""></div>
+                    <div class="DummyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, urna, viverra
+                        fermentum integer gravida aliquet turpis vestibulum. Nec id pharetra id phasellus egestas. In
+                        turpis
+                        risus facilisis orci est porttitor faucibus.</div>
+                    <div class="CustomerInfo Center">
+                        <div id="CustomerInfo" class="Center">
+                            <div class="Customerimg"> <img src="Icons/MedicalIcons/CustomerImage (1).png"></div>
+                            <h1 class="CustomerName">John Doe</h1>
+                            <h1 class="Stars"> <img src="Icons/MedicalIcons/Stars.png"></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="card Second-Card">
+                    <div class="comma"><img src="Icons/MedicalIcons/“.png" alt=""></div>
+                    <div class="DummyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, urna, viverra
+                        fermentum integer gravida aliquet turpis vestibulum. Nec id pharetra id phasellus egestas. In
+                        turpis
+                        risus facilisis orci est porttitor faucibus.</div>
+                    <div class="CustomerInfo Center">
+                        <div id="CustomerInfo" class="Center">
+                            <div class="Customerimg"> <img src="Icons/MedicalIcons/CustomerImage (1).png"></div>
+                            <h1 class="CustomerName">John Doe</h1>
+                            <h1 class="Stars"> <img src="Icons/MedicalIcons/Stars.png"></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="comma"><img src="Icons/MedicalIcons/“.png" alt=""></div>
+                    <div class="DummyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, urna, viverra
+                        fermentum integer gravida aliquet turpis vestibulum. Nec id pharetra id phasellus egestas. In
+                        turpis
+                        risus facilisis orci est porttitor faucibus.</div>
+                    <div class="CustomerInfo Center">
+                        <div id="CustomerInfo" class="Center">
+                            <div class="Customerimg"> <img src="Icons/MedicalIcons/CustomerImage (1).png"></div>
+                            <h1 class="CustomerName">John Doe</h1>
+                            <h1 class="Stars"> <img src="Icons/MedicalIcons/Stars.png"></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="Center" id="Left-Arrow"><img src="Icons/MedicalIcons/Arrow.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Partners -->
+    <div id="Partners">
+        <div id="Partners-Container">
+            <h1 id="Partners-H">OUR PARTNERS</h1>
+            <div id="Logo-Images" class="Center">
+                <img src="Icons/MedicalIcons/Logo1 (1).png"><img src="Icons/MedicalIcons/Logo2.png"><img
+                    src="Icons/MedicalIcons/Logo3.png"><img src="Icons/MedicalIcons/Logo4.png"><img
+                    src="Icons/MedicalIcons/Logo5.png"><img src="Icons/MedicalIcons/Logo6.png">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Find Different Specialists in Different Cities -->
+    <div id="F-Specialists">
+        <h1 id="F-Specialists-Heading">Find Different Specialists in Different Cities</h1>
+        <div id="F-Speciallists-Container" class="Center">
+            <div>
+                <h1 class="CityName">In Karachi</h1>
+                <ul class="List">
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Dermatologist in Karachi</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Gynecologist in Karachi</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Urologist in Karachi</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Sexologist in Karachi</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Child Specialist in Karachi</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Orthopedic Surgeon in Karachi</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Eye Specialist in Karachi</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> ENT Specialist in Karachi</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Cardiologist in Karachi</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Neurologist in Karachi</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Nephrologist in Karachi</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Psychiatrist in Karachi</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Psychologist in Karachi</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Dentist in Karachi</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Pulmonologist in Karachi</li>
+                </ul>
+            </div>
+            <div>
+                <h1 class="CityName">In Lahore</h1>
+                <ul class="List">
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Dermatologist in Lahore</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Gynecologist in Lahore</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Urologist in Lahore</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Sexologist in Lahore</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Child Specialist in Lahore</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Orthopedic Surgeon in Lahore</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Eye Specialist in Lahore</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> ENT Specialist in Lahore</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Cardiologist in Lahore</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Neurologist in Lahore</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Nephrologist in Lahore</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Psychiatrist in Lahore</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Psychologist in Lahore</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Dentist in Lahore</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Pulmonologist in Lahore</li>
+                </ul>
+            </div>
+            <div>
+                <h1 class="CityName">In Islamabad</h1>
+                <ul class="List">
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Dermatologist in Islamabad</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Gynecologist in Islamabad</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Urologist in Islamabad</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Sexologist in Islamabad</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Child Specialist in Islamabad</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Orthopedic Surgeon in Islamabad</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Eye Specialist in Islamabad</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> ENT Specialist in Islamabad</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Cardiologist in Islamabad</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Neurologist in Islamabad</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Nephrologist in Islamabad</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Psychiatrist in Islamabad</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Psychologist in Islamabad</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Dentist in Islamabad</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Pulmonologist in Islamabad</li>
+                </ul>
+            </div>
+            <div>
+                <h1 class="CityName">In Other Cities</h1>
+                <ul class="List"><img src="/Icons/MedicalIcons/GreaterThan.png"> Dermatologist in Multan</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Gynecologist in Multan</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Urologist in Multan</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Sexologist in Multan</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Child Specialist in Faisalabad</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Orthopedic Surgeon in Faisalabad</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Eye Specialist in Faisalabad</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> ENT Specialist in Faisalabad</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Cardiologist in Quetta</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Neurologist in Quetta</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Nephrologist in Quetta</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Psychiatrist in Quetta</li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Psychologist in Sargodha </li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Dentist in Sargodha </li>
+                    <li> <img src="Icons/MedicalIcons/GreaterThan.png"> Pulmonologist in Sargodha </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ending Box -->
+    <div id="Ending-Box" class="Center">
+        <div id="EndingBox-Container">
+            <div id="Features" class="Center">
+                <div class="F-Box Center"> <img src="Icons/MedicalIcons/Shield.png" id="ShieldImage">
+                    <h1>PMC Verified Doctors</h1>
+                </div>
+                <div class="F-Box Center"> <img src="Icons/MedicalIcons/CreditCard.png" id="CreditCardImage">
+                    <h1>Money Back Guarantee</h1>
+                </div>
+                <div class="F-Box Center"> <img src="Icons/MedicalIcons/HeadPhones.png" id="HeadPhonesImage">
+                    <h1>24/7 Customer Support </h1>
+                </div>
+                <div class="F-Box Center"> <img src="Icons/MedicalIcons/Locked.png" id="LockedImage">
+                    <h1>Safe & Secure Online Payment</h1>
+                </div>
+            </div>
+            <div id="H-Line"></div>
+            <div id="Characteristics">
+                <div class="C-Boxes Box-1">
+                    <div class="C-Heading"> <span class="Yellow">COVID</span><span class="Black">CARE</span> </div>
+                    <div id="C-DummyText">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Amet urna laoreet turpis
+                        ut morbi ipsum, turpis. Ut duis orci nisi
+                        dui volutpat, nisi, lorem interdum.
+                    </div>
+                    <div id="C-SocialIcons">
+                        <img src="Icons/MedicalIcons/TwitterW.png">
+                        <img src="Icons/MedicalIcons/FacebookW.png">
+                        <img src="Icons/MedicalIcons/WifiW.png">
+                        <img src="Icons/MedicalIcons/InstaW.png">
+                    </div>
+                </div>
+                <div class="C-Boxes">
+                    <h1 class="MajorHeading">MAJOR CITIES</h1>
+                    <ul class="C-List">
+                        <li>Karachi</li>
+                        <li>Islamabad</li>
+                        <li>Lahore</li>
+                        <li>Faisalabad</li>
+                        <li>Rawalpindi</li>
+                        <li>Multan </li>
+                        <li>Peshawar</li>
+                        <li>Gujranwala</li>
+                        <li>Sargodha</li>
+                        <li>Bahawalpur</li>
+                        <li>Quetta</li>
+                        <li>Wah Cantt</li>
+                    </ul>
+                </div>
+                <div class="C-Boxes">
+                    <h1 class="MajorHeading"">TOP HOSPITALS</h1>
+                <ul class=" C-List">
+                        <li>Doctors Hospital</li>
+                        <li>Hameed Latif Hospital</li>
+                        <li>National Hospital</li>
+                        <li>Fatima Memorial Hospital</li>
+                        <li>Omar Hospital and Cardic Centre</li>
+                        <li>Ali Medical Centre </li>
+                        <li>Shifa International Hospital</li>
+                        <li>Quaid-e-Azam International Hospital</li>
+                        <li>Advanced Medical Centre</li>
+                        <li>Maroof International Hospital</li>
+                        <li>South City Hospital</li>
+                        <li>Park Lane Hospital</li>
+                        </ul>
+                </div>
+                <div class="C-Boxes">
+                    <h1 class="MajorHeading">LAB TEST</h1>
+                    <ul class="C-List">
+                        <li>MRI in Karachi</li>
+                        <li>X-Ray in Karachi</li>
+                        <li>CT Scan in Karachi</li>
+                        <li>Mammography in Karachi</li>
+                        <li>Ultrasound in Karachi</li>
+                    </ul>
+                    <h1 class="MajorHeading Covid-h">Covid 19</h1>
+                    <ul class="C-List">
+                        <li>Guidelines</li>
+                        <li>Prevention</li>
+                        <li>Laboratories</li>
+                        <li>FAQ</li>
+                    </ul>
+                </div>
+                <div class="C-Boxes">
+                    <h1 class="MajorHeading">IMPORTANT</h1>
+                    <ul class="C-List">
+                        <li>Delivery Policy</li>
+                        <li>Refund Policy</li>
+                        <li>Payment Terms</li>
+                        <li>Contact Us</li>
+                        <li>FAQs</li>
+                    </ul>
+                    <h1 class="MajorHeading Download">DOWNLOAD OUR APP</h1>
+                    <img class="DownloadBtn" src="Icons/MedicalIcons/GooglePlay.png">
+                    <img class="DownloadBtn" src="Icons/MedicalIcons/AppStore.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer" class="Center">
+        <span class="Copyright">
+            COPYRIGHT
+        </span>
+        <span class="C-Care">
+            COVID CARE
+        </span>
+        <span class="Year">
+            2021 -
+        </span>
+        <span class="T-C">
+            TERMS AND CONDITIONS
+        </span>
+        <span class="T-C">
+            PRIVACY POLICY
+        </span>
+    </footer>
+    <script src="/CovidCare.Js"></script>
+</body>
+
+</html>

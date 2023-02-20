@@ -1,0 +1,746 @@
+@media screen and (max-width:1550px) {
+    #EndingBox-Container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:1465px) {
+    #S-Container {
+        width: 90vw;
+    }
+
+    .S-Image img {
+        width: 3.5vw;
+    }
+
+    .Big-Icon img {
+        width: 3rem;
+    }
+
+    .Large-Icon img {
+        width: 2rem;
+    }
+
+    .Appointment-Container {
+        margin-left: 5rem;
+    }
+
+    #Doc-Consulting {
+        left: 23rem;
+    }
+
+    .M-Top {
+        margin-top: 10rem;
+    }
+
+    #SearchDoctor p {
+        font-size: 23px;
+    }
+
+    #SearchCity img {
+        margin: 0 2px;
+    }
+
+    #SearchDr {
+        padding: 1.3rem 0.5rem;
+    }
+
+    #SearchCity span {
+        margin: 0 3px;
+        font-size: 12px;
+    }
+
+    #SelectCity {
+        margin-left: 0;
+    }
+
+    #SearchCity {
+        width: 20%;
+    }
+
+    #SearchBranches {
+        width: 65%;
+    }
+
+    .Info-Container {
+        width: 90%;
+    }
+
+    #Video img {
+        width: 90%;
+    }
+
+    #Right-Arrow {
+        left: 6%;
+    }
+
+    #Left-Arrow {
+        right: 6%;
+    }
+
+    .comma {
+        margin: 1rem;
+    }
+
+    .DummyText {
+        line-height: 25px;
+    }
+
+    #F-Speciallists-Container {
+        width: 95%;
+    }
+
+    .List li {
+        font-size: 15px;
+    }
+
+    #EndingBox-Container {
+        width: 98%;
+    }
+
+    #Characteristics {
+        margin-top: 1rem;
+    }
+
+    #EndingBox-Container {
+        height: 95%;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    #S-Container {
+        width: 100vw;
+    }
+
+    #Book-Appointment-Container {
+        width: 90%;
+    }
+
+    #S-text {
+        margin-left: 2rem;
+    }
+
+    #Boxes {
+        margin-left: 5rem;
+    }
+
+    .Items {
+        margin: 0px 2rem;
+    }
+
+    #PhonesImage {
+        width: 80%;
+        bottom: -12.15rem;
+        left: 6rem;
+    }
+
+    .DummyText {
+        font-size: 15px;
+    }
+
+    .F-Box h1 {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    #Main {
+        width: 95vw;
+    }
+
+    #Hamburger {
+        display: block;
+    }
+
+    #NavList {
+        width: 100vw;
+        position: fixed;
+        left: -100%;
+        top: 100px;
+        flex-direction: column;
+        gap: 0;
+        background-color: #E5E5E5;
+        text-align: center;
+        transition: 0.5s;
+    }
+
+    .NavItems {
+        margin: 16px 0;
+    }
+
+    #navbar {
+        justify-content: space-between;
+    }
+
+    #NavList.active {
+        left: 0;
+    }
+
+    #S-Container {
+        width: 95vw;
+    }
+
+    .S-Icon {
+        margin: 1rem 2rem;
+    }
+
+    .Appointment-Container {
+        margin-left: 3rem;
+    }
+
+    #Features {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    #Ending-Box {
+        height: 70vh;
+    }
+
+    #DoctorImage {
+        width: 20%;
+    }
+
+    #DoctorImage img {
+        width: 35vw;
+    }
+
+    #Main {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .S-Icon {
+        margin: 1rem 1rem;
+    }
+
+    .S-Image img {
+        width: 2.5vw;
+    }
+
+    .Big-Icon img {
+        width: 2rem;
+    }
+
+    .Large-Icon img {
+        width: 1rem;
+    }
+
+    .Appointment-Container {
+        margin-left: 2rem;
+    }
+
+    .card {
+        Width: 28vw;
+    }
+
+    #Right-Arrow {
+        left: 4%;
+    }
+
+    #Left-Arrow {
+        right: 4%;
+    }
+
+    .CustomerInfo {
+        /* margin-top: 5.35rem; */
+        width: 28vw;
+        background: #482369;
+    }
+
+    #Ending-Box {
+
+        height: 80vh;
+    }
+
+    #Main {
+        width: 95vw;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .Appointment-Container {
+        margin-left: 3px;
+        width: 55%;
+    }
+
+    #Book-Appointment-Container {
+        width: 97%;
+    }
+
+    #Boxes {
+        margin-left: 15px;
+    }
+
+    #F-Specialists {
+        height: 70vh;
+    }
+
+    #F-Speciallists-Container {
+        width: 98.5%;
+    }
+
+    .C-List li {
+        line-height: 20px;
+    }
+
+    .Box-1 {
+        margin-right: 4rem;
+    }
+
+    #DoctorImage {
+        margin-top: 7rem;
+    }
+
+    #DoctorImage img {
+        margin-top: 7rem;
+    }
+
+    .Number {
+        font-size: 28px;
+        margin: 4px 0;
+    }
+
+    .text {
+        font-size: 18px;
+        padding-top: 5px;
+    }
+}
+
+@media screen and (max-width:865px) {
+    .Box-1 {
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .JoinDrContainer {
+        flex-direction: column;
+        width: 98%;
+    }
+
+    .JoinDrInfo {
+        width: 100%;
+        text-align: center;
+    }
+
+    #PhonesImage {
+        top: 80px;
+        width: 70%;
+        left: 8rem;
+    }
+
+    #JoinAsDr {
+        height: 95vh;
+    }
+
+    #Ellipse {
+        display: none;
+    }
+
+    #SearchDoctor h1 {
+        font-size: 35px;
+        line-height: 47px;
+    }
+
+    #SearchDoctor p {
+        font-size: 22px;
+        Line-height: 30px;
+        margin: 10px 0;
+
+    }
+
+    .Number {
+        font-size: 20px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:807px) {
+    .C-Boxes {
+        margin: 0;
+    }
+
+    #Characteristics {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    #Ending-Box {
+        height: 107vh;
+    }
+
+    .Box-1 {
+        width: 220px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .Doc-Image img {
+        width: 50vw;
+    }
+
+    #Doc-Consulting {
+        top: -11rem;
+    }
+
+    #Doc-Consulting {
+        left: 18rem;
+    }
+
+    #SearchDr {
+        flex-direction: column;
+    }
+
+    #Booking-img {
+        width: 272px;
+        height: 211px;
+    }
+
+    #F-Speciallists-Container {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    #F-Specialists-Heading {
+        padding: 0.5rem;
+    }
+
+    #F-Specialists {
+        height: 106vh;
+    }
+
+    .First-Card {
+        display: none;
+    }
+
+    .card {
+        Width: 43vw;
+    }
+
+    .CustomerInfo {
+        Width: 43vw;
+
+    }
+}
+
+@media screen and (max-width:700px) {
+    .Appointment-Container {
+        position: static;
+    }
+
+    #Doc-Consulting {
+        position: static;
+    }
+
+    .Appointment-Container {
+        width: 100%;
+    }
+
+    #Logo-Images {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    #Logo-Images img {
+        width: 16%;
+    }
+
+    #Partners {
+        height: 26vh;
+    }
+
+    #Partners-H {
+        margin: 2rem;
+    }
+
+    #F-Specialists-Heading {
+        font-size: 23px;
+        line-height: 60px;
+    }
+
+    .CInfo {
+        flex-direction: column-reverse;
+    }
+
+    #Video {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .Second-Card{
+        display: none;
+    }
+    .card {
+        Width: 81vw;
+    }
+    .CustomerInfo{
+        Width: 81vw;
+
+    }
+    #footer{
+        font-size: 12px;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:566px) {
+    #Ending-Box {
+        height: 145vh;
+    }
+}
+
+@media screen and (max-width:550px) {
+    #text {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    #Ellipse-S {
+        display: none;
+    }
+
+    .Items {
+        margin: 0 10px;
+    }
+
+    #Main {
+        flex-direction: column-reverse;
+    }
+
+    #DoctorImage {
+        margin: 4rem 0 0 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #DoctorImage img {
+        margin: 0;
+
+    }
+
+    #SearchDoctor {
+        margin: 20px 0;
+        width: 100%;
+    }
+
+    #SearchContainer {
+        width: 95%;
+    }
+
+    .Btn-outline {
+        display: none;
+    }
+
+    .Btn {
+        padding: 4px;
+    }
+
+    #Hamburger {
+        margin: 0 5px;
+    }
+
+    #SearchDoctor h1 {
+        font-size: 27px;
+        line-height: 40px;
+    }
+
+    #SearchDoctor p {
+        font-size: 17px;
+        Line-height: 24px;
+        margin: 7px 0;
+    }
+
+    .Number {
+        font-size: 17px;
+    }
+
+    .text {
+        font-size: 11px;
+    }
+
+    .Appointment-Container {
+        flex-direction: column;
+    }
+
+    .Appointment-text {
+        margin: 0.5rem;
+    }
+
+    .Btn-Appointment {
+        margin: .5rem 15px;
+    }
+
+    #Doc-Consulting {
+        flex-direction: column;
+    }
+
+    #Appointment {
+        height: 100vh;
+    }
+
+    #HeadingText {
+        margin-bottom: 0.5rem;
+        margin-top: 0rem;
+    }
+
+    #SpecialityBtn {
+        margin: 1rem 0;
+    }
+
+    .S-Icon {
+        margin: 10px 10px;
+    }
+
+    #Appoint-Question {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    #Appoint-Steps {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    #SearchDr span {
+        font-size: 15px;
+    }
+
+    #SearchDr .bullet {
+        margin: 12px;
+    }
+
+    #Covid-Info {
+        height: 80vh;
+    }
+    #Left-Arrow {
+        right: 10%;
+    }
+    .Review-H {
+        margin: 1rem;
+        padding-top: 2rem;
+        font-size: 24px;}
+        #Reviews {
+            height: 587px;}
+            .CustomerName{
+                font-size: 24px;
+            }
+
+}
+
+@media screen and (max-width:486px) {
+    #F-Specialists {
+        height: 148vh;
+    }
+    #Boxes{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #Bar{
+        height: 25vh;
+    }
+}
+
+@media screen and (max-width:443px) {
+    #F-Specialists {
+        height: 201vh;
+    }
+
+}
+
+@media screen and (max-width:450px) {
+    #S-Container {
+        width: 100vw;
+    }
+
+    #HeadingText h1 {
+        font-size: 23px;
+    }
+
+    #HeadingText div {
+        font-size: 21px;
+    }
+
+    .S-Icon {
+        margin: 9px 2px;
+    }
+
+    #PhonesImage {
+        left: 2rem;
+    }
+
+    .I-T-H1 {
+        font-size: 25px;
+        line-height: 20px;
+    }
+
+    .P-Text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .bullet {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .Cards{
+        justify-content:center ;
+    }
+}
+
+@media screen and (max-width:377px) {
+    #Ending-Box {
+        height: 215vh;
+    }
+}
+
+@media screen and (max-width:350px) {
+    #Appointment {
+        height: 92vh;
+    }
+
+    .CInfo {
+        flex-direction: column-reverse;
+    }
+
+    #Video {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #NumericData {
+        width: 100vw;
+    }
+
+    .Big-Icon {
+        display: none;
+    }
+    .DummyText{
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+
+@media screen and (max-width:321px) {
+    #Bar {
+        height: 33vh;
+    }
+
+}
+@media screen and (max-width:300px) {
+    #Speciality {
+        height: 118vh;
+    }
+
+}
